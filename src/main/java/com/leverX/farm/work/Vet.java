@@ -9,6 +9,9 @@ public class Vet {
     private static final Logger logger = LogManager.getLogger();
     private String name;
 
+    public Vet() {
+    }
+
     public Vet(String name) {
         this.name = name;
     }

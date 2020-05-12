@@ -11,6 +11,9 @@ public class Stuff {
     private String name;
     private String position;
 
+    public Stuff() {
+    }
+
     public Stuff(String name, String position) {
         this.name = name;
         this.position = position;
@@ -40,7 +43,7 @@ public class Stuff {
     public void feed(Dog dog) {
         switch (dog.getFeeding()) {
             case HUNGRY:
-               logger.info("The dog " + " " + dog.getName() + " " + "should be fed!");
+                logger.info("The dog " + " " + dog.getName() + " " + "should be fed!");
                 break;
             case FULL:
                 logger.info("The dog " + " " + dog.getName() + " " + "does not need to be fed, he is not hungry");

@@ -7,6 +7,9 @@ public class Aviary {
     private int number;
     private Cleaning clean;
 
+    public Aviary() {
+    }
+
     public Aviary(int number, Cleaning clean) {
         this.number = number;
         this.clean = clean;
