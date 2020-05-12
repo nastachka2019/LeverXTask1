@@ -15,10 +15,10 @@ public class Vet {
     }
 
     public void toTreat(Dog dog) {
-        if (dog.getHealth()==Health.SICK) {
+        if (dog.getHealth() == Health.SICK) {
             System.out.println("The Dog " + dog.getName() + " was cured by doctor  " + name);
-        }else {
-            System.out.println("The Dog " + dog.getName() + "is healthy and doesn't need treatment " + name);
+        } else {
+            System.out.println("The Dog " + dog.getName() + " is healthy and doesn't need treatment " + name);
         }
     }
 

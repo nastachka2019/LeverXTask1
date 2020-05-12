@@ -91,7 +91,7 @@ public class OneDayFarm {
             stuff.feed(dog);
             vet.checkDog(dog);
             stuff.train(dog);
-            dog.policeWork();
+           stuff.policeWork(dog);
             vet.toTreat(dog);
         }
 

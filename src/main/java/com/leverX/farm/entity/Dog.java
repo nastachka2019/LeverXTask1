@@ -81,49 +81,6 @@ public class Dog {
         return str.toString();
     }
 
-    public void eat() {
-        switch (feeding) {
-            case HUNGRY:
-                System.out.println("The dog " + " " + getName() + " " + "should be fed!");
-                break;
-            case FULL:
-                System.out.println("The dog " + " " + getName() + " " + "does not need to be fed, he is not hungry");
-        }
-    }
-
-    public void train() {
-        switch (training) {
-            case TRAINED:
-                System.out.println("The dog " + " " + getName() + " " + "was trained !");
-                break;
-            case UNTRAINED:
-                System.out.println("The dog " + " " + getName() + " " + "needs to be trained !");
-        }
-    }
-
-    public void treat() {
-        switch (health) {
-            case SICK:
-                System.out.println("The dog " + " " + getName() + " " + "needs to be treat !");
-                break;
-            case HEALTHY:
-                System.out.println("The dog " + " " + getName() + " " + "is healthy!");
-        }
-    }
-
-    public void policeWork() {
-        switch (age) {
-            case ADULT:
-                System.out.println("The dog " + " " + getName() + " " + "is going at work to the police station");
-            case OLD:
-                System.out.println("The dog " + " " + getName() + " " + "is returning to the aviary");
-
-            case PUPPY:
-                System.out.println("The dog " + " " + getName() + " " + "is returning to the aviary");
-        }
-    }
-
-
     public static class Builder {
         private Dog dog;
 
