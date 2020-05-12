@@ -9,22 +9,21 @@ public class Vet {
     private static final Logger logger = LogManager.getLogger();
     private String name;
 
-
     public Vet(String name) {
         this.name = name;
     }
 
     public void toTreat(Dog dog) {
         if (dog.getHealth() == Health.SICK) {
-            System.out.println("The Dog " + dog.getName() + " was cured by doctor  " + name);
+            logger.info("The Dog " + dog.getName() + " was cured by doctor  " + name);
         } else {
-            System.out.println("The Dog " + dog.getName() + " is healthy and doesn't need treatment " + name);
+            logger.info("The Dog " + dog.getName() + " is healthy and doesn't need treatment " + name);
         }
     }
 
     public void checkDog(Dog dog) {
         if (dog.getHealth() == Health.SICK) {
-            System.out.println("The Dog " + dog.getName() + " is sick");
+            logger.info("The Dog " + dog.getName() + " is sick");
         }
     }
 }

@@ -19,21 +19,21 @@ public class Stuff {
     public void train(Dog dog) {
         switch (dog.getTraining()) {
             case TRAINED:
-                System.out.println("The dog " + " " + dog.getName() + " " + "was trained !");
+                logger.info("The dog " + " " + dog.getName() + " " + "was trained !");
                 break;
             case UNTRAINED:
-                System.out.println("The dog " + " " + dog.getName() + " " + "needs to be trained !");
+                logger.info("The dog " + " " + dog.getName() + " " + "needs to be trained !");
         }
     }
 
     public void policeWork(Dog dog) {
         switch (dog.getAge()) {
             case ADULT:
-                System.out.println("The dog " + " " + dog.getName() + " " + "is going at work to the police station");
+                logger.info("The dog " + " " + dog.getName() + " " + "is going at work to the police station");
             case OLD:
-                System.out.println("The dog " + " " + dog.getName() + " " + "is returning to the aviary");
+                logger.info("The dog " + " " + dog.getName() + " " + "is returning to the aviary");
             case PUPPY:
-                System.out.println("The dog " + " " + dog.getName() + " " + "is returning to the aviary");
+                logger.info("The dog " + " " + dog.getName() + " " + "is returning to the aviary");
         }
     }
 

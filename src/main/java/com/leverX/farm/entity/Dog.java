@@ -3,11 +3,10 @@ package com.leverX.farm.entity;
 import com.leverX.farm.action.Feeding;
 import com.leverX.farm.action.Health;
 import com.leverX.farm.action.Training;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
 
 public class Dog {
-    private static final Logger logger = LogManager.getLogger();
+
     private String name;
     private DogAge age;
     private Feeding feeding;

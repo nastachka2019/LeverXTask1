@@ -13,3 +13,101 @@
 [INFO ] 2020-05-12 16:32:29.507 [main] com.leverX.farm.work.Stuff 52 - Aviary  5  was cleaned by worker Andrew
 [INFO ] 2020-05-12 16:32:29.507 [main] com.leverX.farm.work.Stuff 54 - Aviary  6 doesn't need  cleaning
 [INFO ] 2020-05-12 16:32:29.507 [main] com.leverX.farm.work.Stuff 54 - Aviary  7 doesn't need  cleaning
+[INFO ] 2020-05-12 19:05:01.444 [main] com.leverX.farm.work.Stuff 43 - The dog  Max should be fed!
+[INFO ] 2020-05-12 19:05:01.448 [main] com.leverX.farm.work.Stuff 22 - The dog  Max was trained !
+[INFO ] 2020-05-12 19:05:01.448 [main] com.leverX.farm.work.Stuff 36 - The dog  Max is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.448 [main] com.leverX.farm.work.Vet 20 - The Dog Max is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:05:01.448 [main] com.leverX.farm.work.Stuff 46 - The dog  Mila does not need to be fed, he is not hungry
+[INFO ] 2020-05-12 19:05:01.449 [main] com.leverX.farm.work.Vet 26 - The Dog Mila is sick
+[INFO ] 2020-05-12 19:05:01.449 [main] com.leverX.farm.work.Stuff 25 - The dog  Mila needs to be trained !
+[INFO ] 2020-05-12 19:05:01.449 [main] com.leverX.farm.work.Stuff 36 - The dog  Mila is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.449 [main] com.leverX.farm.work.Vet 18 - The Dog Mila was cured by doctor  Adam
+[INFO ] 2020-05-12 19:05:01.449 [main] com.leverX.farm.work.Stuff 43 - The dog  Mery should be fed!
+[INFO ] 2020-05-12 19:05:01.449 [main] com.leverX.farm.work.Vet 26 - The Dog Mery is sick
+[INFO ] 2020-05-12 19:05:01.450 [main] com.leverX.farm.work.Stuff 22 - The dog  Mery was trained !
+[INFO ] 2020-05-12 19:05:01.450 [main] com.leverX.farm.work.Stuff 32 - The dog  Mery is going at work to the police station
+[INFO ] 2020-05-12 19:05:01.450 [main] com.leverX.farm.work.Stuff 34 - The dog  Mery is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.450 [main] com.leverX.farm.work.Stuff 36 - The dog  Mery is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.450 [main] com.leverX.farm.work.Vet 18 - The Dog Mery was cured by doctor  Adam
+[INFO ] 2020-05-12 19:05:01.450 [main] com.leverX.farm.work.Stuff 43 - The dog  Rex should be fed!
+[INFO ] 2020-05-12 19:05:01.451 [main] com.leverX.farm.work.Stuff 22 - The dog  Rex was trained !
+[INFO ] 2020-05-12 19:05:01.451 [main] com.leverX.farm.work.Stuff 36 - The dog  Rex is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.451 [main] com.leverX.farm.work.Vet 20 - The Dog Rex is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:05:01.451 [main] com.leverX.farm.work.Stuff 43 - The dog  Della should be fed!
+[INFO ] 2020-05-12 19:05:01.451 [main] com.leverX.farm.work.Stuff 22 - The dog  Della was trained !
+[INFO ] 2020-05-12 19:05:01.451 [main] com.leverX.farm.work.Stuff 34 - The dog  Della is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.452 [main] com.leverX.farm.work.Stuff 36 - The dog  Della is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.452 [main] com.leverX.farm.work.Vet 20 - The Dog Della is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:05:01.452 [main] com.leverX.farm.work.Stuff 46 - The dog  Marley does not need to be fed, he is not hungry
+[INFO ] 2020-05-12 19:05:01.452 [main] com.leverX.farm.work.Vet 26 - The Dog Marley is sick
+[INFO ] 2020-05-12 19:05:01.452 [main] com.leverX.farm.work.Stuff 25 - The dog  Marley needs to be trained !
+[INFO ] 2020-05-12 19:05:01.453 [main] com.leverX.farm.work.Stuff 34 - The dog  Marley is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.453 [main] com.leverX.farm.work.Stuff 36 - The dog  Marley is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.453 [main] com.leverX.farm.work.Vet 18 - The Dog Marley was cured by doctor  Adam
+[INFO ] 2020-05-12 19:05:01.453 [main] com.leverX.farm.work.Stuff 46 - The dog  Jack does not need to be fed, he is not hungry
+[INFO ] 2020-05-12 19:05:01.453 [main] com.leverX.farm.work.Stuff 25 - The dog  Jack needs to be trained !
+[INFO ] 2020-05-12 19:05:01.453 [main] com.leverX.farm.work.Stuff 36 - The dog  Jack is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.454 [main] com.leverX.farm.work.Vet 20 - The Dog Jack is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:05:01.454 [main] com.leverX.farm.work.Stuff 43 - The dog  Kate should be fed!
+[INFO ] 2020-05-12 19:05:01.458 [main] com.leverX.farm.work.Vet 26 - The Dog Kate is sick
+[INFO ] 2020-05-12 19:05:01.459 [main] com.leverX.farm.work.Stuff 25 - The dog  Kate needs to be trained !
+[INFO ] 2020-05-12 19:05:01.459 [main] com.leverX.farm.work.Stuff 32 - The dog  Kate is going at work to the police station
+[INFO ] 2020-05-12 19:05:01.459 [main] com.leverX.farm.work.Stuff 34 - The dog  Kate is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.459 [main] com.leverX.farm.work.Stuff 36 - The dog  Kate is returning to the aviary
+[INFO ] 2020-05-12 19:05:01.459 [main] com.leverX.farm.work.Vet 18 - The Dog Kate was cured by doctor  Adam
+[INFO ] 2020-05-12 19:05:01.459 [main] com.leverX.farm.work.Stuff 54 - Aviary  1 doesn't need  cleaning
+[INFO ] 2020-05-12 19:05:01.460 [main] com.leverX.farm.work.Stuff 52 - Aviary  2  was cleaned by worker Andrew
+[INFO ] 2020-05-12 19:05:01.460 [main] com.leverX.farm.work.Stuff 52 - Aviary  3  was cleaned by worker Andrew
+[INFO ] 2020-05-12 19:05:01.460 [main] com.leverX.farm.work.Stuff 54 - Aviary  4 doesn't need  cleaning
+[INFO ] 2020-05-12 19:05:01.460 [main] com.leverX.farm.work.Stuff 52 - Aviary  5  was cleaned by worker Andrew
+[INFO ] 2020-05-12 19:05:01.460 [main] com.leverX.farm.work.Stuff 54 - Aviary  6 doesn't need  cleaning
+[INFO ] 2020-05-12 19:05:01.460 [main] com.leverX.farm.work.Stuff 54 - Aviary  7 doesn't need  cleaning
+[INFO ] 2020-05-12 19:06:11.320 [main] com.leverX.farm.work.Stuff 43 - The dog  Max should be fed!
+[INFO ] 2020-05-12 19:06:11.326 [main] com.leverX.farm.work.Stuff 22 - The dog  Max was trained !
+[INFO ] 2020-05-12 19:06:11.326 [main] com.leverX.farm.work.Stuff 36 - The dog  Max is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.326 [main] com.leverX.farm.work.Vet 20 - The Dog Max is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:06:11.327 [main] com.leverX.farm.work.Stuff 46 - The dog  Mila does not need to be fed, he is not hungry
+[INFO ] 2020-05-12 19:06:11.327 [main] com.leverX.farm.work.Vet 26 - The Dog Mila is sick
+[INFO ] 2020-05-12 19:06:11.327 [main] com.leverX.farm.work.Stuff 25 - The dog  Mila needs to be trained !
+[INFO ] 2020-05-12 19:06:11.328 [main] com.leverX.farm.work.Stuff 36 - The dog  Mila is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.328 [main] com.leverX.farm.work.Vet 18 - The Dog Mila was cured by doctor  Adam
+[INFO ] 2020-05-12 19:06:11.329 [main] com.leverX.farm.work.Stuff 43 - The dog  Mery should be fed!
+[INFO ] 2020-05-12 19:06:11.329 [main] com.leverX.farm.work.Vet 26 - The Dog Mery is sick
+[INFO ] 2020-05-12 19:06:11.330 [main] com.leverX.farm.work.Stuff 22 - The dog  Mery was trained !
+[INFO ] 2020-05-12 19:06:11.330 [main] com.leverX.farm.work.Stuff 32 - The dog  Mery is going at work to the police station
+[INFO ] 2020-05-12 19:06:11.330 [main] com.leverX.farm.work.Stuff 34 - The dog  Mery is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.331 [main] com.leverX.farm.work.Stuff 36 - The dog  Mery is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.331 [main] com.leverX.farm.work.Vet 18 - The Dog Mery was cured by doctor  Adam
+[INFO ] 2020-05-12 19:06:11.331 [main] com.leverX.farm.work.Stuff 43 - The dog  Rex should be fed!
+[INFO ] 2020-05-12 19:06:11.332 [main] com.leverX.farm.work.Stuff 22 - The dog  Rex was trained !
+[INFO ] 2020-05-12 19:06:11.332 [main] com.leverX.farm.work.Stuff 36 - The dog  Rex is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.332 [main] com.leverX.farm.work.Vet 20 - The Dog Rex is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:06:11.332 [main] com.leverX.farm.work.Stuff 43 - The dog  Della should be fed!
+[INFO ] 2020-05-12 19:06:11.333 [main] com.leverX.farm.work.Stuff 22 - The dog  Della was trained !
+[INFO ] 2020-05-12 19:06:11.333 [main] com.leverX.farm.work.Stuff 34 - The dog  Della is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.334 [main] com.leverX.farm.work.Stuff 36 - The dog  Della is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.334 [main] com.leverX.farm.work.Vet 20 - The Dog Della is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:06:11.334 [main] com.leverX.farm.work.Stuff 46 - The dog  Marley does not need to be fed, he is not hungry
+[INFO ] 2020-05-12 19:06:11.334 [main] com.leverX.farm.work.Vet 26 - The Dog Marley is sick
+[INFO ] 2020-05-12 19:06:11.335 [main] com.leverX.farm.work.Stuff 25 - The dog  Marley needs to be trained !
+[INFO ] 2020-05-12 19:06:11.335 [main] com.leverX.farm.work.Stuff 34 - The dog  Marley is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.335 [main] com.leverX.farm.work.Stuff 36 - The dog  Marley is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.335 [main] com.leverX.farm.work.Vet 18 - The Dog Marley was cured by doctor  Adam
+[INFO ] 2020-05-12 19:06:11.336 [main] com.leverX.farm.work.Stuff 46 - The dog  Jack does not need to be fed, he is not hungry
+[INFO ] 2020-05-12 19:06:11.336 [main] com.leverX.farm.work.Stuff 25 - The dog  Jack needs to be trained !
+[INFO ] 2020-05-12 19:06:11.336 [main] com.leverX.farm.work.Stuff 36 - The dog  Jack is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.336 [main] com.leverX.farm.work.Vet 20 - The Dog Jack is healthy and doesn't need treatment Adam
+[INFO ] 2020-05-12 19:06:11.336 [main] com.leverX.farm.work.Stuff 43 - The dog  Kate should be fed!
+[INFO ] 2020-05-12 19:06:11.341 [main] com.leverX.farm.work.Vet 26 - The Dog Kate is sick
+[INFO ] 2020-05-12 19:06:11.341 [main] com.leverX.farm.work.Stuff 25 - The dog  Kate needs to be trained !
+[INFO ] 2020-05-12 19:06:11.342 [main] com.leverX.farm.work.Stuff 32 - The dog  Kate is going at work to the police station
+[INFO ] 2020-05-12 19:06:11.342 [main] com.leverX.farm.work.Stuff 34 - The dog  Kate is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.342 [main] com.leverX.farm.work.Stuff 36 - The dog  Kate is returning to the aviary
+[INFO ] 2020-05-12 19:06:11.342 [main] com.leverX.farm.work.Vet 18 - The Dog Kate was cured by doctor  Adam
+[INFO ] 2020-05-12 19:06:11.342 [main] com.leverX.farm.work.Stuff 54 - Aviary  1 doesn't need  cleaning
+[INFO ] 2020-05-12 19:06:11.343 [main] com.leverX.farm.work.Stuff 52 - Aviary  2  was cleaned by worker Andrew
+[INFO ] 2020-05-12 19:06:11.343 [main] com.leverX.farm.work.Stuff 52 - Aviary  3  was cleaned by worker Andrew
+[INFO ] 2020-05-12 19:06:11.343 [main] com.leverX.farm.work.Stuff 54 - Aviary  4 doesn't need  cleaning
+[INFO ] 2020-05-12 19:06:11.344 [main] com.leverX.farm.work.Stuff 52 - Aviary  5  was cleaned by worker Andrew
+[INFO ] 2020-05-12 19:06:11.344 [main] com.leverX.farm.work.Stuff 54 - Aviary  6 doesn't need  cleaning
+[INFO ] 2020-05-12 19:06:11.345 [main] com.leverX.farm.work.Stuff 54 - Aviary  7 doesn't need  cleaning
