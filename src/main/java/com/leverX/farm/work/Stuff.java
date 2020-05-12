@@ -2,11 +2,13 @@ package com.leverX.farm.work;
 
 
 import com.leverX.farm.action.Cleaning;
+import com.leverX.farm.action.Training;
 import com.leverX.farm.entity.Dog;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Stuff {
+    private static final Logger logger = LogManager.getLogger();
     private String name;
     private String position;
 
@@ -15,7 +17,7 @@ public class Stuff {
         this.position=position;
     }
     public void train(Dog dog){
-        dog.train();
+dog.train();
     }
     public void feed(Dog dog) {
         dog.eat();

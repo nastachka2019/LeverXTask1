@@ -84,40 +84,45 @@ public class Dog {
     public void eat() {
         switch (feeding) {
             case HUNGRY:
-                logger.info("The dog " + " " + getName() + " " + "should be fed!");
+                System.out.println("The dog " + " " + getName() + " " + "should be fed!");
                 break;
             case FULL:
-                logger.info("The dog " + " " + getName() + " " + "does not need to be fed, he is not hungry");
+                System.out.println("The dog " + " " + getName() + " " + "does not need to be fed, he is not hungry");
         }
     }
 
     public void train() {
         switch (training) {
             case TRAINED:
-                logger.info("The dog " + " " + getName() + " " + "was trained !");
+                System.out.println("The dog " + " " + getName() + " " + "was trained !");
                 break;
             case UNTRAINED:
-                logger.info("The dog " + " " + getName() + " " + "needs to be trained !");
+                System.out.println("The dog " + " " + getName() + " " + "needs to be trained !");
         }
     }
+
     public void treat() {
         switch (health) {
             case SICK:
-                logger.info("The dog " + " " + getName() + " " + "needs to be treat !");
+                System.out.println("The dog " + " " + getName() + " " + "needs to be treat !");
                 break;
             case HEALTHY:
-                logger.info("The dog " + " " + getName() + " " + "is healthy!");
+                System.out.println("The dog " + " " + getName() + " " + "is healthy!");
         }
     }
 
     public void policeWork() {
         switch (age) {
             case ADULT:
-                logger.info("The dog " + " " + getName() + " " + "is going at work to the police station");
+                System.out.println("The dog " + " " + getName() + " " + "is going at work to the police station");
             case OLD:
-                logger.info("The dog " + " " + getName() + " " + "is returning to the aviary");
+                System.out.println("The dog " + " " + getName() + " " + "is returning to the aviary");
+
+            case PUPPY:
+                System.out.println("The dog " + " " + getName() + " " + "is returning to the aviary");
         }
     }
+
 
     public static class Builder {
         private Dog dog;

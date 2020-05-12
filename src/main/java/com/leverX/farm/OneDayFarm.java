@@ -93,7 +93,6 @@ public class OneDayFarm {
             stuff.train(dog);
             dog.policeWork();
             vet.toTreat(dog);
-
         }
 
         for (Aviary aviary : aviaries) {
