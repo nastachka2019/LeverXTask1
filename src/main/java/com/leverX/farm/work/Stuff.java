@@ -40,18 +40,18 @@ public class Stuff {
     public void feed(Dog dog) {
         switch (dog.getFeeding()) {
             case HUNGRY:
-                System.out.println("The dog " + " " + dog.getName() + " " + "should be fed!");
+               logger.info("The dog " + " " + dog.getName() + " " + "should be fed!");
                 break;
             case FULL:
-                System.out.println("The dog " + " " + dog.getName() + " " + "does not need to be fed, he is not hungry");
+                logger.info("The dog " + " " + dog.getName() + " " + "does not need to be fed, he is not hungry");
         }
     }
 
     public void cleanAviary(Aviary aviary) {
         if (aviary.getClean() == Cleaning.DIRTY) {
-            System.out.println("Aviary " + " " + aviary.getNumber() + " " + " was cleaned by " + position + " " + name);
+            logger.info("Aviary " + " " + aviary.getNumber() + " " + " was cleaned by " + position + " " + name);
         } else {
-            System.out.println("Aviary " + " " + aviary.getNumber() + " " + "doesn't need  cleaning");
+            logger.info("Aviary " + " " + aviary.getNumber() + " " + "doesn't need  cleaning");
         }
     }
 }
