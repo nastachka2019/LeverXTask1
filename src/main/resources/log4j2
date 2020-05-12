@@ -6,7 +6,7 @@
 
     <Appenders>
         <RollingFile name="RollingFile" fileName="${basePath}/farmDog.log"
-                     filePattern="${basePath}/greenhouse-%d{yyyy-MM-dd}.log">
+                     filePattern="${basePath}/farmDog-%d{yyyy-MM-dd}.log">
             <PatternLayout>
                 <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c %L - %msg%n</pattern>
             </PatternLayout>
