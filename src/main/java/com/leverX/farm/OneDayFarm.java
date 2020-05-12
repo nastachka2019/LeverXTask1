@@ -82,16 +82,14 @@ public class OneDayFarm {
         aviaries.add(new Aviary(6, Cleaning.CLEAN));
         aviaries.add(new Aviary(7, Cleaning.CLEAN));
 
-
         Vet vet = new Vet("Adam");
         Stuff stuff = new Stuff("Andrew", "worker");
-
 
         for (Dog dog : dogs) {
             stuff.feed(dog);
             vet.checkDog(dog);
             stuff.train(dog);
-           stuff.policeWork(dog);
+            stuff.policeWork(dog);
             vet.toTreat(dog);
         }
 
