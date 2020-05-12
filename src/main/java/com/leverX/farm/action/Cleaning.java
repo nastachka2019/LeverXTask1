@@ -9,4 +9,8 @@ public enum Cleaning {
     Cleaning(String state) {
         this.state = state;
     }
+    public String getState() {
+        return state;
+    }
+
 }

@@ -87,7 +87,7 @@ public class Dog {
                 logger.info("The dog " + " " + getName() + " " + "should be fed!");
                 break;
             case FULL:
-                System.out.println("The dog " + " " + getName() + " " + "does not need to be fed, he is not hungry");
+                logger.info("The dog " + " " + getName() + " " + "does not need to be fed, he is not hungry");
         }
     }
 
@@ -98,6 +98,15 @@ public class Dog {
                 break;
             case UNTRAINED:
                 logger.info("The dog " + " " + getName() + " " + "needs to be trained !");
+        }
+    }
+    public void treat() {
+        switch (health) {
+            case SICK:
+                logger.info("The dog " + " " + getName() + " " + "needs to be treat !");
+                break;
+            case HEALTHY:
+                logger.info("The dog " + " " + getName() + " " + "is healthy!");
         }
     }
 

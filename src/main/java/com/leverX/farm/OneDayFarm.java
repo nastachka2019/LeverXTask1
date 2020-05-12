@@ -73,15 +73,6 @@ public class OneDayFarm {
                 .setTraining(Training.UNTRAINED)
                 .build());
 
-//        dogs.add(new PuppyDog.Builder().build("Max", DogAge.PUPPY));
-//        dogs.add(new PuppyDog.Builder().build("Mila", DogAge.PUPPY));
-//        dogs.add(new AdultDog.Builder().build("Mary", DogAge.ADULT));
-//        dogs.add(new AdultDog.Builder().build("Rex", DogAge.ADULT));
-//        dogs.add(new AdultDog.Builder().build("Della", DogAge.ADULT));
-//        dogs.add(new OldDog.Builder().build("Marley", DogAge.OLD));
-//        dogs.add(new OldDog.Builder().build("Kate", DogAge.OLD));
-
-
         List<Aviary> aviaries = new ArrayList<>();
         aviaries.add(new Aviary(1, Cleaning.CLEAN));
         aviaries.add(new Aviary(2, Cleaning.DIRTY));
@@ -99,9 +90,8 @@ public class OneDayFarm {
         for (Dog dog : dogs) {
             stuff.feed(dog);
             vet.checkDog(dog);
-   stuff.train(dog);
-dog.policeWork();
-
+            stuff.train(dog);
+            dog.policeWork();
             vet.toTreat(dog);
 
         }

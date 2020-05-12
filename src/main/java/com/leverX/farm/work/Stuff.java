@@ -1,7 +1,10 @@
 package com.leverX.farm.work;
 
+
 import com.leverX.farm.action.Cleaning;
 import com.leverX.farm.entity.Dog;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Stuff {
     private String name;
@@ -22,5 +25,4 @@ public class Stuff {
         aviary.setClean(Cleaning.CLEAN);
         System.out.println("Aviary " + aviary.getNumber() + " was cleaned by " + position +" "+ name);
     }
-
 }
