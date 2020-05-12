@@ -3,8 +3,11 @@ package com.leverX.farm.entity;
 import com.leverX.farm.action.Feeding;
 import com.leverX.farm.action.Health;
 import com.leverX.farm.action.Training;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Dog {
+    private static final Logger logger = LogManager.getLogger();
     private String name;
     private DogAge age;
     private Feeding feeding;
@@ -57,11 +60,12 @@ public class Dog {
                 (health == dog.health || (health != null && health.equals(dog.getHealth()))) &&
                 (training == dog.training || (training != null && training.equals(dog.getTraining())));
     }
+
     @Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result +((age==null)?0:age.hashCode());
+        result = prime * result + ((age == null) ? 0 : age.hashCode());
         result = prime * result + ((name == null) ? 0 : name.hashCode());
         result = prime * result + ((feeding == null) ? 0 : feeding.hashCode());
         result = prime * result + ((training == null) ? 0 : training.hashCode());
@@ -78,78 +82,68 @@ public class Dog {
     }
 
     public void eat() {
-        switch (feeding){
+        switch (feeding) {
             case HUNGRY:
-                System.out.println("I want eat!!! " + getName());
+                logger.info("The dog " + " " + getName() + " " + "should be fed!");
                 break;
             case FULL:
-                System.out.println("I don't want eat" + getName());
+                System.out.println("The dog " + " " + getName() + " " + "does not need to be fed, he is not hungry");
         }
     }
 
     public void train() {
-        switch (training){
+        switch (training) {
             case TRAINED:
-                System.out.println("I am trained!!! " + getName());
+                logger.info("The dog " + " " + getName() + " " + "was trained !");
                 break;
             case UNTRAINED:
-                System.out.println("I I need trained" + getName());
+                logger.info("The dog " + " " + getName() + " " + "needs to be trained !");
         }
     }
 
     public void policeWork() {
-        switch (age){
-            case PUPPY:
-                System.out.println("I am in training" + getName());
-                break;
+        switch (age) {
             case ADULT:
-                System.out.println("I go to work" + getName());
+                logger.info("The dog " + " " + getName() + " " + "is going at work to the police station");
             case OLD:
-                System.out.println("I am old for this , i am in a aviary" + getName());
+                logger.info("The dog " + " " + getName() + " " + "is returning to the aviary");
         }
     }
 
-//    public void stayInAviary() {
-//        setFeeding(Feeding.HUNGRY);
-//        System.out.println("The Dog " + getName() + " returned in the aviary");
-//    }
-//
-//    public static class BuilderDog {
-//
-//        public Health nestedHealth;
-//        public Feeding nestedFeeding;
-//        public Training nestedTraining;
-//
-//    }
-public static class Builder {
+    public static class Builder {
         private Dog dog;
 
-    public Builder() {
-        dog = new Dog();
-    }
+        public Builder() {
+            dog = new Dog();
+        }
 
-    public Builder setName(String name){
-        dog.name = name;
-        return this;
+        public Builder setName(String name) {
+            dog.name = name;
+            return this;
+        }
+
+        public Builder setAge(DogAge age) {
+            dog.age = age;
+            return this;
+        }
+
+        public Builder setFeeding(Feeding feeding) {
+            dog.feeding = feeding;
+            return this;
+        }
+
+        public Builder setHealth(Health health) {
+            dog.health = health;
+            return this;
+        }
+
+        public Builder setTraining(Training training) {
+            dog.training = training;
+            return this;
+        }
+
+        public Dog build() {
+            return dog;
+        }
     }
-    public Builder setAge(DogAge age){
-       dog.age= age;
-        return this;
-    }
-    public Builder setFeeding(Feeding feeding){
-       dog.feeding= feeding;
-        return this;
-    }
-    public Builder setHealth(Health health){
-     dog.health=health;
-        return this;
-    }
-    public Builder setTraining(Training training){
-       dog.training=training;
-        return this;
-    }
-    public Dog build() {
-        return dog;
-    }
-}
 }
