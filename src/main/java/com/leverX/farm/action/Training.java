@@ -9,7 +9,6 @@ public enum Training {
     Training(String state) {
         this.state = state;
     }
-
     public String getState() {
         return state;
     }
