@@ -80,42 +80,6 @@ public class Dog {
         return str.toString();
     }
 
-    //    public static class Builder {
-//        private Dog dog;
-//
-//        public Builder() {
-//            dog = new Dog();
-//        }
-//
-//        public Builder setName(String name) {
-//            dog.name = name;
-//            return this;
-//        }
-//
-//        public Builder setAge(DogAge age) {
-//            dog.age = age;
-//            return this;
-//        }
-//
-//        public Builder setFeeding(Feeding feeding) {
-//            dog.feeding = feeding;
-//            return this;
-//        }
-//
-//        public Builder setHealth(Health health) {
-//            dog.health = health;
-//            return this;
-//        }
-//
-//        public Builder setTraining(Training training) {
-//            dog.training = training;
-//            return this;
-//        }
-//
-//        public Dog build() {
-//            return dog;
-//        }
-//    }
     public static class Builder {
         private String name;
         private DogAge age;
