@@ -16,62 +16,14 @@ public class OneDayFarm {
     public void createOneDayFarm() {
         List<Dog> dogs = new ArrayList<>();
 
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.PUPPY)
-                .setName("Max")
-                .setFeeding(Feeding.HUNGRY)
-                .setHealth(Health.HEALTHY)
-                .setTraining(Training.TRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.PUPPY)
-                .setName("Mila")
-                .setFeeding(Feeding.FULL)
-                .setHealth(Health.SICK)
-                .setTraining(Training.UNTRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.ADULT)
-                .setName("Mery")
-                .setFeeding(Feeding.HUNGRY)
-                .setHealth(Health.SICK)
-                .setTraining(Training.TRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.PUPPY)
-                .setName("Rex")
-                .setFeeding(Feeding.HUNGRY)
-                .setHealth(Health.HEALTHY)
-                .setTraining(Training.TRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.OLD)
-                .setName("Della")
-                .setFeeding(Feeding.HUNGRY)
-                .setHealth(Health.HEALTHY)
-                .setTraining(Training.TRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.OLD)
-                .setName("Marley")
-                .setFeeding(Feeding.FULL)
-                .setHealth(Health.SICK)
-                .setTraining(Training.UNTRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.PUPPY)
-                .setName("Jack")
-                .setFeeding(Feeding.FULL)
-                .setHealth(Health.HEALTHY)
-                .setTraining(Training.UNTRAINED)
-                .build());
-        dogs.add(new Dog.Builder()
-                .setAge(DogAge.ADULT)
-                .setName("Kate")
-                .setFeeding(Feeding.HUNGRY)
-                .setHealth(Health.SICK)
-                .setTraining(Training.UNTRAINED)
-                .build());
+        dogs.add(new Dog.Builder("Max", DogAge.PUPPY, Feeding.FULL, Health.SICK, Training.UNTRAINED).build());
+        dogs.add(new Dog.Builder("Mila", DogAge.PUPPY, Feeding.FULL, Health.SICK, Training.UNTRAINED).build());
+        dogs.add(new Dog.Builder("Mery", DogAge.ADULT, Feeding.HUNGRY, Health.SICK, Training.TRAINED).build());
+        dogs.add(new Dog.Builder("Rex", DogAge.PUPPY, Feeding.HUNGRY, Health.HEALTHY, Training.TRAINED).build());
+        dogs.add(new Dog.Builder("Della", DogAge.OLD, Feeding.HUNGRY, Health.HEALTHY, Training.TRAINED).build());
+        dogs.add(new Dog.Builder("Marley", DogAge.OLD, Feeding.FULL, Health.SICK, Training.UNTRAINED).build());
+        dogs.add(new Dog.Builder("Jack", DogAge.PUPPY, Feeding.FULL, Health.HEALTHY, Training.UNTRAINED).build());
+        dogs.add(new Dog.Builder("Kate", DogAge.ADULT, Feeding.HUNGRY, Health.SICK, Training.UNTRAINED).build());
 
         List<Aviary> aviaries = new ArrayList<>();
         aviaries.add(new Aviary(1, Cleaning.CLEAN));
