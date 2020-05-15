@@ -101,7 +101,6 @@ public class Dog {
         }
     }
 
-
     private Dog(Builder builder) {
         name = builder.name;
         age = builder.age;
