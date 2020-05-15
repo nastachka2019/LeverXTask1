@@ -80,40 +80,69 @@ public class Dog {
         return str.toString();
     }
 
+    //    public static class Builder {
+//        private Dog dog;
+//
+//        public Builder() {
+//            dog = new Dog();
+//        }
+//
+//        public Builder setName(String name) {
+//            dog.name = name;
+//            return this;
+//        }
+//
+//        public Builder setAge(DogAge age) {
+//            dog.age = age;
+//            return this;
+//        }
+//
+//        public Builder setFeeding(Feeding feeding) {
+//            dog.feeding = feeding;
+//            return this;
+//        }
+//
+//        public Builder setHealth(Health health) {
+//            dog.health = health;
+//            return this;
+//        }
+//
+//        public Builder setTraining(Training training) {
+//            dog.training = training;
+//            return this;
+//        }
+//
+//        public Dog build() {
+//            return dog;
+//        }
+//    }
     public static class Builder {
-        private Dog dog;
+        private String name;
+        private DogAge age;
+        private Feeding feeding;
+        private Health health;
+        private Training training;
 
-        public Builder() {
-            dog = new Dog();
-        }
-
-        public Builder setName(String name) {
-            dog.name = name;
-            return this;
-        }
-
-        public Builder setAge(DogAge age) {
-            dog.age = age;
-            return this;
-        }
-
-        public Builder setFeeding(Feeding feeding) {
-            dog.feeding = feeding;
-            return this;
-        }
-
-        public Builder setHealth(Health health) {
-            dog.health = health;
-            return this;
-        }
-
-        public Builder setTraining(Training training) {
-            dog.training = training;
-            return this;
+        public Builder(String name, DogAge age, Feeding feeding, Health health, Training training) {
+            this.name = name;
+            this.age = age;
+            this.feeding = feeding;
+            this.health = health;
+            this.training = training;
         }
 
         public Dog build() {
-            return dog;
+            return new Dog(this) {
+            };
         }
     }
+
+    private Dog(Builder builder) {
+        name = builder.name;
+        age = builder.age;
+        feeding = builder.feeding;
+        health = builder.health;
+        training = builder.training;
+    }
 }
+
