@@ -5,9 +5,10 @@ import com.leverX.farm.action.Feeding;
 import com.leverX.farm.action.Health;
 import com.leverX.farm.action.Training;
 import com.leverX.farm.entity.*;
-import com.leverX.farm.work.Aviary;
-import com.leverX.farm.work.Stuff;
-import com.leverX.farm.work.Vet;
+import com.leverX.farm.stuff.Aviary;
+import com.leverX.farm.stuff.Stuff;
+import com.leverX.farm.stuff.Vet;
+
 
 import java.util.ArrayList;
 import java.util.List;

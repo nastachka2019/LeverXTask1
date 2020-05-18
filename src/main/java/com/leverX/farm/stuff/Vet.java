@@ -1,4 +1,4 @@
-package com.leverX.farm.work;
+package com.leverX.farm.stuff;
 
 import com.leverX.farm.action.Health;
 import com.leverX.farm.entity.Dog;
